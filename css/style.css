@@ -1,0 +1,79 @@
+@font-face{
+	src: url(../fonts/roboto/Roboto-Regular.ttf );
+	font-family: Roboto-Regular;
+}
+@font-face{
+	src: url(../fonts/roboto/Roboto-Medium.ttf );
+	font-family: Roboto-Medium;
+}
+@font-face{
+	src: url(../fonts/lato/Lato-Regular.ttf );
+	font-family: Lato-Regular;
+}
+@font-face{
+	src: url(../fonts/lato/Lato-Medium.ttf );
+	font-family: Lato-Medium;
+}
+@font-face{
+	src: url(../fonts/lato/Lato-Semibold.ttf );
+	font-family: Lato-Semibold;
+}
+@font-face{
+	src: url(../fonts/lato/Lato-Bold.ttf );
+	font-family: Lato-Bold;
+}
+
+
+
+/*common*/
+body{
+   font-family: Roboto-Regular;
+   font-size: 16px;
+   font-weight: 400;
+   color: #8e8e8e;	
+}
+/*common*/
+/*header*/
+header{
+	padding: 20px 0;
+	border-bottom: 1px solid white;
+}
+.c_nav{
+
+}
+.logo{
+font-size: 25px;
+margin-bottom: 0px !important;
+}
+.nav_cus{}
+.menu{
+
+}
+.menu ul li a{
+  font-family: Roboto-Regular;
+  color: #8e8e8e;
+  padding: 0 15px !important;
+}
+.menu ul li a:hover {
+	font-size: 700 !important;
+	color: #333333 !important;
+}
+.dp_a::after{
+ display: none;
+}
+.dp_m[data-bs-popper]{
+top: 60px;
+left: -338px;
+margin-top: 0;
+}
+.dp_m{
+	width: 400px;
+	padding: 10px 10px;
+	background-color: transparent;
+    border: 0;
+}
+.dp_input{}
+/*header end*/
+/*carousel start*/
+
+/*carousel end*/
